@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_ckNCIEndEeekatNNS5NlIA" confirmationNeeded="false" name="dev">
+    <contextParameter xmi:id="_ckNCIUndEeekatNNS5NlIA" comment="" name="folder_path" prompt="folder_path?" promptNeeded="false" type="id_String" value="&quot;C:/dev/&quot;"/>
+    <contextParameter xmi:id="_Gs5rwEnqEeekatNNS5NlIA" comment="" name="lab2_path" prompt="lab2_path?" promptNeeded="false" type="id_String" value="&quot;C:/dev/&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_tg22sEnAEeekatNNS5NlIA" confirmationNeeded="false" name="test">
+    <contextParameter xmi:id="_tg22sUnAEeekatNNS5NlIA" comment="" name="folder_path" prompt="folder_path?" promptNeeded="false" type="id_String" value="&quot;C:/test/&quot;"/>
+    <contextParameter xmi:id="_Gs5rwUnqEeekatNNS5NlIA" comment="" name="lab2_path" prompt="lab2_path?" promptNeeded="false" type="id_String" value="&quot;C:/test/HW_2_3/HW_2_3/&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>

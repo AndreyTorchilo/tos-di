@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_4QqZwUnrEeekatNNS5NlIA" name="currency_rates" dataPackage="_4QqZwknrEeekatNNS5NlIA" Server="Localhost 127.0.0.1" FilePath="C:/test/HW_2_3/HW_2_3/Exchange rates USD.xls" Encoding="UTF-8" UseHeader="true" HeaderValue="5" SheetName="Sheet1" firstColumn="2" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Sheet1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_4QqZwknrEeekatNNS5NlIA" name="default" dataManager="_4QqZwUnrEeekatNNS5NlIA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_4QqZw0nrEeekatNNS5NlIA" id="_NIidAEnrEeekatNNS5NlIA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4QqZxEnrEeekatNNS5NlIA" label="Month" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4QqZxUnrEeekatNNS5NlIA" label="C_ignore" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4QqZxknrEeekatNNS5NlIA" label="P_N_L" length="5" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4QqZx0nrEeekatNNS5NlIA" label="E_ignore" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4QqZyEnrEeekatNNS5NlIA" label="Balance" length="5" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

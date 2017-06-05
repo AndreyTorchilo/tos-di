@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_pd2KEEeYEeesJNIRnb6wBA" name="HDI" dataPackage="_pd2KEUeYEeesJNIRnb6wBA" Server="Localhost 127.0.0.1" FilePath="C:/test/Human Development Index trends, 1990–2014.xls" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Table 2" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Table 2:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_pd2KEUeYEeesJNIRnb6wBA" name="default" dataManager="_pd2KEEeYEeesJNIRnb6wBA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_pd2KEkeYEeesJNIRnb6wBA" id="_ilZEgEeYEeesJNIRnb6wBA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pd2KE0eYEeesJNIRnb6wBA" label="HDI_rank" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pd2KFEeYEeesJNIRnb6wBA" label="Country" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pd2KFUeYEeesJNIRnb6wBA" label="Y1990" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pd2KFkeYEeesJNIRnb6wBA" label="Y2000" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pd2KF0eYEeesJNIRnb6wBA" label="Y2010" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pd2KGEeYEeesJNIRnb6wBA" label="Y2011" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pd2KGUeYEeesJNIRnb6wBA" label="Y2012" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pd2KGkeYEeesJNIRnb6wBA" label="Y2013" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pd2KG0eYEeesJNIRnb6wBA" label="Y2014" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
